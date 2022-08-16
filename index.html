@@ -5,9 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Me</title>
+    <script src="app.js"></script>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <script src="app.js"></script>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <h1>About Me</h1>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="about-me">
+        <img src="images/profile.jpeg" alt="Me" class="me" />
+        <p>
+          Hello, My name is <strong>Diego Sousa</strong>. I spent the last 5
+          years working as a Fire Alarm Technician.
+        </p>
+        <p>
+          I have little programming experience most of it is from youtube videos
+          and free online courses such as FreeCodeBootCamp and Udemy.<br> I am a
+          self-taught developer and I am currently learning to code in HTML,
+          CSS, JavaScript.
+        </p>
+        <p>
+          Working on a full-stack web development bootcamp at
+          <a href="https://www.codefellows.org/">Code Fellows</a>.
+        </p>
+      </div>
+
+      <div>
+        <h2>Hobbies</h2>
+        <ul>
+          <li><strong>Watching</strong> movies and TV shows</li>
+          <li><strong>Playing</strong> video games</li>
+          <li><strong>Listening</strong> to music</li>
+          <li><strong>Learning</strong> Code</li>
+        </ul>
+        <hr />
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git</li>
+          <li>GitHub</li>
+        </ul>
+        <hr />
+        <h2>Goals</h2>
+        <ul>
+          <li>
+            <strong>Learn</strong> new technologies and languages
+          </li>
+          <li>
+            <strong>Learn</strong> new frameworks and libraries
+          </li>
+          <li>
+            <strong>Learn</strong> new programming languages
+          </li>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <p>
+            &copy; Diego Sousa 2020 -
+            <?php echo date('Y'); ?>
+            All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    
   </body>
 </html>
