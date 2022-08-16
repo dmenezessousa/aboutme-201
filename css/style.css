@@ -1,0 +1,27 @@
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+}
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.about-me {
+  padding: 20px;
+  text-align: center;
+}
