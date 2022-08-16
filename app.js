@@ -34,15 +34,15 @@ function guessingGame() {
 
   let q1 = prompt("Is my name 'Diego'?");
   if (q1.toLowerCase() == "yes" || q1.toLowerCase() == "y") {
-    alert("Correct! My name is Diego");
+    alert("Correct! Yes, My name is Diego");
   } else {
-    alert("Incorrect! Yes, my name is Diego");
+    alert("Incorrect! My name is Diego");
   }
   let q2 = prompt("Am I from New Jersey?");
   if (q2.toLowerCase() == "yes" || q2.toLowerCase() == "y") {
-    alert("Correct! I am from New Jersey");
+    alert("Correct! Yes, I am from New Jersey");
   } else {
-    alert("Incorrect! Yes, I am from New Jersey");
+    alert("Incorrect! My I am from New Jersey");
   }
   let q3 = prompt("Am I 35 years old?");
   if (q3.toLowerCase() == "no" || q3.toLowerCase() == "n") {
